@@ -1,0 +1,23 @@
+.card-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--backgroundBlack);
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+    .char-img {
+        width: 400px;
+        border-radius: 20px;
+    }
+
+    .back-btn {
+        cursor: pointer;
+        width: 100px;
+        height: 50px;
+        background: rgb(66, 65, 65);
+        color: white;
+    }
+}

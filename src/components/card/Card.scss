@@ -1,0 +1,27 @@
+.card-container{
+    background-color:rgb(66, 65, 65);
+    display: flex;
+    width: 650px;
+    height:240px;
+    border-radius: 15px;
+    color:white;
+    margin:10px;
+    .mainCharImg{
+        border-radius:7%;
+    }
+    .card-info{
+        padding:15px;
+        .mainCharName:hover{
+            color:rgba(211, 211, 211, 0.863);
+        }
+        .links{
+            color:white;
+            text-decoration: none;
+        }
+        .status{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
+}

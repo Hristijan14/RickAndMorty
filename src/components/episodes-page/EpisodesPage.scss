@@ -1,0 +1,21 @@
+.episodes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:var(--backgroundBlack);
+    flex-direction: column;
+    padding-bottom: 70px;
+    .page-intro{
+        color:white;
+        padding-bottom: 20px;
+    }
+    .table-info{
+        width: 57%;
+        .table-thing{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color:white;
+        }
+    }
+}
